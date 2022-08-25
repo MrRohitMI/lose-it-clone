@@ -94,3 +94,126 @@
   justify-content: space-between;
   align-items: center;
 }
+.H1div{
+  width: 100%;
+  height: 620px;
+  /* border:1px solid black */
+}
+.H2div{
+  width: 65%;
+  height: 300px;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.Sh2div{
+  height: 100%;
+  width: 32%;
+  /* border: 1px blue solid; */
+  
+}
+.weight{
+  text-align: center;
+    font-size: 2em;
+    color: #183962;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.H3div{
+  width: 100%;
+  height: 370px;
+  /* border: 1px solid green; */
+}
+.H4div{
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid purple; */
+}
+.H5div{
+  width: 100%;
+  height: 160px;
+  /* border: 1px solid blue; */
+}
+.settext{
+  font-size: 1.5em;
+    color: #ff9400;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+}
+.settext2{
+  font-size: 14px;
+  font-family: Avenir, "Helvetica Neue", sans-serif;
+  color: #808284;
+  font-weight: 400;
+}
+.bigtext{
+    color: #ff9400;
+    font-size: 5.5em;
+    font-weight: 700;
+    margin: 10px auto;
+    font-family: inherit
+}
+.pounds{
+  color: #455555;
+    letter-spacing: .4em;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px auto;
+    margin-top: -10px;
+}
+.asseen{
+  color: #183962;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 21px;
+}
+.H6div{
+  width: 100%;
+  height: 550px;
+  border: 1px solid #183962;
+  background-color: #183962;
+  margin-bottom: 10px;
+}
+.advice{
+  font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+.sh6div{
+  height: 350px;
+  width: 65%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.sh6div1{
+  height: 100%;
+  width:43%;
+  /* border: 1px solid green; */
+}
+.track{
+    text-align: center;
+    align-self: center;
+    font-weight: 500;
+    font-size: 1em;
+    color: #ffa600;
+}
+.carla{
+    font-size: .8em;
+    color: #fff;
+    margin-top: 10px;
+}
