@@ -1,6 +1,7 @@
 import {Box,Text,Image,Button} from "@chakra-ui/react"
 import a from "../Image/image (1).png"
 import b from "../Image/image (2).png"
+import Carousel from "./Carausal"
 export default function Home(){
     return(
         <><Box className="H1div">
@@ -24,7 +25,9 @@ export default function Home(){
                 <Text className="settext2">Reach your goals and continue to set new ones for a happier, healthier you!</Text>
             </Box>
         </Box>
-        <Box className="H3div"></Box>
+        <Box className="H3div">
+            <Carousel/>
+        </Box>
         <Box className="H4div">
             <Image src="https://assets.loseit.com/website/home/Ticker_Celebratory.svg" alt="..." width="15%" ml="42%"/>
             <Text className="bigtext">122,959,302</Text>

@@ -217,3 +217,45 @@
     color: #fff;
     margin-top: 10px;
 }
+.nutrition{
+  color: #183962;
+    font-family: "Raleway", Sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 39px;
+}
+.welcome{
+  font-family: Avenir, sans-serif;
+    color: #455555;
+    font-size: 1.2em;
+    text-align: center;
+}
+.container{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px 20px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card{
+  width: 32%;
+}
+.title{
+  font-family: "Raleway", Sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    font-size: 1.2em;
+    color: #455555;
+    text-decoration: underline;
+}
+.desc{
+    text-align: left;
+    font-family: "Arial", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
