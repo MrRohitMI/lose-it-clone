@@ -54,6 +54,20 @@ export default function Home(){
             </Box>
                 <Button color="white" backgroundColor="orange" padding="8px 37px 10px 37px" mt="10px">Share Your Story</Button>
         </Box>
+        <Box className="H7div">
+            <button className="getbutton">Get Weight Loss Tips</button>
+        </Box>
+        <Box className="H8div">
+            <Text className="get">Get Started on Mobile</Text>
+            <Box className="img2">
+                <Box className="s2img">
+                    <Image src="https://assets.loseit.com/website/home/Download_Apple.svg" alt="..." height="100%"/>
+                </Box>
+                <Box className="s2img">
+                    <Image src="https://assets.loseit.com/website/home/Download_GooglePlay.svg" alt="..." height="100%"/>
+                </Box>
+            </Box>
+        </Box>
         </>
     )
 }
