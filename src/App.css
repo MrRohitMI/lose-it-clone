@@ -218,7 +218,7 @@
     margin-top: 10px;
 }
 .nutrition{
-  color: #183962;
+    color: #183962;
     font-family: "Raleway", Sans-serif;
     font-weight: 600;
     text-transform: none;
@@ -258,4 +258,49 @@
     font-family: "Arial", Sans-serif;
     font-weight: 400;
     font-size: 14px;
+}
+.getbutton{
+  text-decoration: none;
+    color: #fff;
+    outline: 0;
+    border-radius: 0.25rem;
+    background-color: #183962;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px auto;
+    border: 0;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-color: transparent;
+    width: auto;
+    cursor: pointer;
+}
+.H8div{
+  background-color: #d7dbdf;
+  height: 240px;
+  border: 1px solid #d7dbdf;
+}
+.get{
+    font-size: 1.5em;
+    color: #ff9400;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.img2{
+   height: 70px;
+   width: 30%;
+   /* border: 1px solid red; */
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 120px;
+}
+.s2img{
+  height: 100%;
+  width: 47%;
+  /* border: 1px solid green; */
 }
