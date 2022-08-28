@@ -2,6 +2,7 @@ import {Box,Text,Image,Button} from "@chakra-ui/react"
 import a from "../Image/image (1).png"
 import b from "../Image/image (2).png"
 import Carousel from "./Carausal"
+import {Link} from "react-router-dom"
 export default function Home(){
     return(
         <><Box className="H1div">
@@ -55,16 +56,16 @@ export default function Home(){
                 <Button color="white" backgroundColor="orange" padding="8px 37px 10px 37px" mt="10px">Share Your Story</Button>
         </Box>
         <Box className="H7div">
-            <button className="getbutton">Get Weight Loss Tips</button>
+            <Link to="blog"><button className="getbutton">Get Weight Loss Tips</button></Link>
         </Box>
         <Box className="H8div">
             <Text className="get">Get Started on Mobile</Text>
             <Box className="img2">
                 <Box className="s2img">
-                    <Image src="https://assets.loseit.com/website/home/Download_Apple.svg" alt="..." height="100%"/>
+                    <a href="https://apps.apple.com/app/lose-it/id297368629"><Image src="https://assets.loseit.com/website/home/Download_Apple.svg" alt="..." height="100%"/></a>
                 </Box>
                 <Box className="s2img">
-                    <Image src="https://assets.loseit.com/website/home/Download_GooglePlay.svg" alt="..." height="100%"/>
+                    <a href="https://play.google.com/store/apps/details?id=com.fitnow.loseit&"><Image src="https://assets.loseit.com/website/home/Download_GooglePlay.svg" alt="..." height="100%"/></a>
                 </Box>
             </Box>
         </Box>
