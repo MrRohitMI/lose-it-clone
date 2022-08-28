@@ -3,7 +3,6 @@ import './App.css';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import AllRoutes from './AllRoutes/AllRoutes';
-import Blog from './Components/Blog';
 
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <AllRoutes/>
-      {/* <Blog/> */}
       <Footer/>
     </div>
   );

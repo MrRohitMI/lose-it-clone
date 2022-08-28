@@ -9,6 +9,7 @@ export default function Signup(){
     email:"",
     password:""
   })
+  const navigate=useNavigate()
   function handleChange(e){
     const {name,value}=e.target
     setFormstate({
@@ -17,6 +18,15 @@ export default function Signup(){
   }
   function postData(e){
     e.preventDefault()
+    // const users=sign.find((elem)=>
+    //      el.email===elem.email
+    //    )
+       
+    //    if(users!==undefined)
+    //    {
+    //       alert("Already Exists!!")
+    //    }
+    //    else{
       fetch(
           "https://rohitcena.herokuapp.com/login",
           {
@@ -25,9 +35,10 @@ export default function Signup(){
             body: JSON.stringify(formState),
           }
         ).then((res)=>res.json())
-        .then((res)=>console.log(res))
+        .then((res)=>navigate("/login"))
         .catch((err)=>{console.log(err)})
-  }
+       }
+  // }
   console.log(formState)
 return(
 <>

@@ -1,5 +1,6 @@
 import {Box,Image,Text} from "@chakra-ui/react" 
 import {FaFacebookSquare,FaInstagram,FaTwitter,FaPinterest,FaInvision} from "react-icons/fa"
+import {Link} from "react-router-dom"
 export default function Footer(){
     return(
         <>
@@ -7,7 +8,7 @@ export default function Footer(){
             <Box className="Ufdiv1">
                 <Box className="Tdiv"></Box>
                 <Box className="Tdiv">
-                    <Image src="https://assets.loseit.com/website/home/Footer_WhiteKnockOutLogo.svg" alt="..." width="70%" margin="auto"/>
+                    <Link to="/"><Image src="https://assets.loseit.com/website/home/Footer_WhiteKnockOutLogo.svg" alt="..." width="70%" margin="auto"/></Link>
                 </Box>
                 <Box className="Tdiv"></Box>
                 <Box className="Tdiv" mr="15px">
@@ -35,11 +36,11 @@ export default function Footer(){
             </Box>
             <Box className="Ufdiv2">
                 <Box className="icdiv">
-                <Box className="icons"><FaFacebookSquare/></Box>
-                <Box className="icons"><FaInstagram/></Box>
-                <Box className="icons"><FaTwitter/></Box>
-                <Box className="icons"><FaPinterest/></Box>
-                <Box className="icons"><FaInvision/></Box>
+                <a href="https://www.facebook.com/loseit/"><Box className="icons"><FaFacebookSquare/></Box></a>
+                <a href="https://www.instagram.com/loseitapp/"><Box className="icons"><FaInstagram/></Box></a>
+                <a href="https://twitter.com/loseit/"><Box className="icons"><FaTwitter/></Box></a>
+                <a href="https://in.pinterest.com/loseit/"><Box className="icons"><FaPinterest/></Box></a>
+                <a href="https://www.linkedin.com/company/lose-it/"><Box className="icons"><FaInvision/></Box></a>
             </Box>
             <Box className="Btext">
                <Text>Copyright 2008-2021 FitNow, Inc, All Rights Reserved</Text>
