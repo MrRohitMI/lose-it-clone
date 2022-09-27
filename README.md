@@ -25,6 +25,6 @@ To deploy this project run
 
 ## Support
 
-If you have any feedback, please reach out to us at rohitmourya.com
+If you have any feedback, please reach out to us at www.rohitmourya0012@gmail.com
 
 
