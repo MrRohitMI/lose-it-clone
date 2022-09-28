@@ -1,5 +1,5 @@
 
-# Project Title
+# Project Description
 
 This is a clone of weight loss website called Lose It.
 
